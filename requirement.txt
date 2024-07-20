@@ -1,3 +1,5 @@
 django
 psutil
-decouple
+python-decouple
+psycopg2-binary
+python-dotenv
