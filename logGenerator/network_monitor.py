@@ -14,6 +14,6 @@ if __name__ == "__main__":
     try:
         while True:
             log_network_stats()
-            time.sleep(0.0001)  # Log every 0.5 seconds
+            time.sleep(0.0001)
     except KeyboardInterrupt:
         print("Monitoring stopped.")
