@@ -1,2 +1,8 @@
+# Ignore network log file
 network_monitor.log
+
+# Ignore environment file
 .env
+
+# Ignore __pycache__ directories
+__pycache__/
