@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'log_fortress.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'log-fortress',
+        'NAME': 'log_fortress',
         'USER':  config("DB_USER_NAME"),
         'PASSWORD': config("DB_PASSWORD"),
         'HOST': 'localhost',
